@@ -61,7 +61,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                         // Include config file
                         require_once "config.php";
                         // Attempt select query executionS
-                        $sql = "SELECT * FROM demo.booksinfo";
+                        $sql = "SELECT * FROM milybookstore.booksinfo";
                         if ($result = mysqli_query($link, $sql)) {
                             if (mysqli_num_rows($result) > 0) {
                                 echo "<table class='table table-bordered'>";

@@ -1,6 +1,6 @@
 <?php
 
-$link = mysqli_connect("localhost", "root", "", "demo");
+$link = mysqli_connect("localhost", "root", "", "milybookstore");
 // Check connection
 if ($link === false) {
     die("ERROR: Could not connect. " . mysqli_connect_error());
@@ -26,7 +26,7 @@ if (mysqli_query($link, $sql)) {
 mysqli_close($link);
 
 
-$link = mysqli_connect("localhost", "root", "", "demo");
+$link = mysqli_connect("localhost", "root", "", "milybookstore");
 // Check connection
 if ($link === false) {
     die("ERROR: Could not connect. " . mysqli_connect_error());
@@ -54,7 +54,7 @@ if (mysqli_query($link, $sql)) {
 // Close connection
 mysqli_close($link);
 
-$link = mysqli_connect("localhost", "root", "", "demo");
+$link = mysqli_connect("localhost", "root", "", "milybookstore");
 // Check connection
 if ($link === false) {
     die("ERROR: Could not connect. " . mysqli_connect_error());
