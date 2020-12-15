@@ -77,7 +77,7 @@
                             <li><a href="single-product.html">Single Books</a></li>
                             <li><a href="cart.html">Cart</a></li>
                             <li><a href="checkout.html">Checkout</a></li>
-                            <li><a href="#">Publisher</a></li>
+                            <li><a href="publisher.php">Publisher</a></li>
                             <li><a href="login.php">Admin</a></li>
                         </ul>
                     </div>  
@@ -175,8 +175,6 @@
                                             <li><a href="books.php">1</a></li>
                                             <li><a href="books2.php">2</a></li>
                                             <li><a href="books3.php">3</a></li>
-                                            <li><a href="#">4</a></li>
-                                            <li><a href="#">5</a></li>
                                             <li>
                                                 <a href="#" aria-label="Next">
                                                     <span aria-hidden="true">&raquo;</span>
