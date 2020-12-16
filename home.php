@@ -4,9 +4,7 @@
 
 <!DOCTYPE html>
 <!--
-        ustora by freshdesignweb.com
-        Twitter: https://twitter.com/freshdesignweb
-        URL: https://www.freshdesignweb.com/ustora/
+
 -->
 <html lang="en">
     <head>

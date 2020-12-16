@@ -52,7 +52,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                             <a href="home.php" class="btn btn-info" role="button">Home</a>
 
 
-                            <a href="create.php" class="btn btn-info" role="button">Add New Book Information</a>
+                            <a href="addbook.php" class="btn btn-info" role="button">Add New Book Information</a>
 
 
 
@@ -61,7 +61,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                         // Include config file
                         require_once "config.php";
                         // Attempt select query executionS
-                        $sql = "SELECT * FROM milybookstore.booksinfo";
+                        $sql = "SELECT * FROM booksinfo";
                         if ($result = mysqli_query($link, $sql)) {
                             if (mysqli_num_rows($result) > 0) {
                                 echo "<table class='table table-bordered'>";

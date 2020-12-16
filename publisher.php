@@ -50,6 +50,6 @@ require "./template/header.php";
 </ul>
 <?php
 mysqli_close($conn);
-require "./template/footer.php";
+require "config.php";
 ?>
 
